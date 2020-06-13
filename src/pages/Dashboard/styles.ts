@@ -216,6 +216,7 @@ export const Calendar = styled.aside`
 
 .DayPicker-wrapper {
   padding-bottom: 0;
+  margin-right: 20px
 }
 
 .DayPicker,
