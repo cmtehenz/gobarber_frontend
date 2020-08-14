@@ -140,7 +140,12 @@ const Dashboard: React.FC = () => {
         <HeaderContent>
           <img src={logoImg} alt="GoBarber" />
           <Profile>
-            <img src={user.avatar_url} alt={user.name} />
+            <img
+              src={
+                user.avatar_url || `https://api.adorable.io/avatars/${user.id}`
+              }
+              alt={user.name}
+            />
             <div>
               <span>Bem-vindo,</span>
               <Link to="/profile">
@@ -194,7 +199,10 @@ const Dashboard: React.FC = () => {
                 </span>
                 <div>
                   <img
-                    src={appointment.user.avatar_url}
+                    src={
+                      appointment.user.avatar_url ||
+                      `https://api.adorable.io/avatars/${appointment.id}`
+                    }
                     alt={appointment.user.name}
                   />
                   <strong>{appointment.user.name}</strong>
