@@ -27,7 +27,7 @@ e para barbeiros, permite gerenciar os horários marcados.</p>
 
 <p>Este é o repositório da versão web do projeto.</p>
 <ul>
-  <li>Para a api REST, <a href="https://github.com/cmtehenz/gobarber-backend">clique aqui</a>.</li>
+  <li>Para a api REST, <a href="https://github.com/cmtehenz/gobarber-back">clique aqui</a>.</li>
   <li>Para a versão mobile, <a href="https://github.com/cmtehenz/gobarber_mobile">aqui</a>.</li>
 </ul>
 
@@ -53,14 +53,14 @@ e para barbeiros, permite gerenciar os horários marcados.</p>
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/en/) v10.20 ou maior
 - [Yarn](https://yarnpkg.com/)
-- [Api REST do GoBarber](https://github.com/cmtehenz/gobarber-backend)
+- [Api REST do GoBarber](https://github.com/cmtehenz/gobarber-back)
 
 ### Como executar
 
 <i>Antes de executar estes passos, certifique-se que sua api REST esteja em execução</i>
 
 - Clone o repositório ```git clone https://github.com/cmtehenz/gobarber_frontend.git```
-- Vá até o diretório ```cd gostack-gobarber-web```
+- Vá até o diretório ```cd gobarber_frontend```
 - Execute ```yarn``` para instalar as dependências
 - Execute ```yarn start``` para rodar o servidor
 
@@ -92,4 +92,4 @@ Depois que o merge da sua pull request for feito, você pode deletar a sua branc
 Esse projeto está sob a licença MIT. Veja o arquivo para mais detalhes.
 
 <hr />
-<p>by Gustavo Costa :wave: <a href="https://linktr.ee/nathaliacristina20">Get in touch!</a></p>
+<p>by Gustavo Costa :wave: <a href="https://linktr.ee/cmtehenz">Get in touch!</a></p>
